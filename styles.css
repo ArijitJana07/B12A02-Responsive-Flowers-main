@@ -1,0 +1,19 @@
+/* common classes */
+.fixed-width{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+/* navigation */
+.navigation-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu{
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
