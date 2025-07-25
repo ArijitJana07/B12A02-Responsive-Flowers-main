@@ -9,14 +9,19 @@
 <body>
     <header>
         <!-- Navigation Menu -->
-        <nav class="navigation-class fixed-width">
+        <nav class="navigation-class fixed-width-nav">
             <div>
                 <img src="assets/logo.png" alt="" srcset="">
             </div>
-            <div>
-                <a href="#" class="nav-menu">Home</a>
-                <a href="#" class="nav-menu">Shop</a>
-                <a href="#" class="nav-menu">About Us</a>
+            <div class="flex">
+                <div class="nav-menu">
+                    <a href="#" class="nav-menu">Home</a>
+                    <a href="#" class="nav-menu">Shop</a>
+                    <a href="#" class="nav-menu">About Us</a>
+                </div>
+                <div class="flex">
+                    <img class="cart-icon" src="assets/cart-shopping-thin-full.svg" alt=""><p>cart ($56)</p>
+                </div>
             </div>
         </nav>
         <!-- Hero Section -->
@@ -26,7 +31,7 @@
                 <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
             <div>
-                <img src="assets/hero-flower.png" alt="" srcset="">
+                <img class="image" src="assets/hero-flower.png" alt="" srcset="">
             </div>
         </section>
     </header>
@@ -88,8 +93,9 @@
         </section>
         <!--Flower & Plants Lover -->
         <section class="flower-plant-class fixed-width">
-            <div>
-                <img src="assets/flower-store.png" alt="">
+            <div >
+                <img src="assets/flower-store.png" alt="" class="image" id="image">
+                <img class="badge" src="assets/trusted-badge.png" alt="">
             </div>
             <div>
                 <h2 class="flower-plant-title">Flower & Plants Lover</h2>
@@ -100,7 +106,29 @@
                 </ul>
             </div>
         </section>
-        <!--  -->
+        <!-- Latest Deals -->
+         <section class="latest-deal-class fixed-width">
+            <h2><span>Latest</span> Deals</h2>
+            <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <div class="latest-deal-images">
+                <div id="div1">
+                    <div id="deal-bloom" class="deal-cards">
+                        <p class="deal-card-title">60% Off | Bloom Plant</p>
+                        <a class="deal-card-text" href="">Shop Now</a>
+                    </div>
+                    <div id="deal-ana" class="deal-cards">
+                        <p class="deal-card-title">30% Off | Ana  Plant</p>
+                        <a class="deal-card-text" href="">Shop Now</a>
+                    </div>
+                </div>
+                <div id="div2">
+                    <div id="deal-zabo" class="deal-cards">
+                        <p class="deal-card-title">25% Off | Zabo Plant</p>
+                        <a class="deal-card-text" href="">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+         </section>
         <!-- News Letter -->
          <section class="news-letter">
             <div>
@@ -111,7 +139,7 @@
          </section>
     </main>
     <footer class="footer-class">
-        <div>
+        <div class="footer-description">
             <img src="assets/logo.png" alt="">
             <p>Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop. </p>
         </div>
