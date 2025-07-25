@@ -62,6 +62,7 @@
     .product-cards{
         display: grid;
         grid-template-columns: repeat(4,1fr);
+        justify-items: center;
     }
 
     .product-card{
@@ -72,6 +73,21 @@
     .product-card-button{
         width: 100%;
     }
+    /* Flower & Plants Lover */
+
+    .flower-plant-class{
+        display: flex;
+    }
+    .flower-plant-title{
+        padding: 0 100px;
+    }
+    .flower-plant-content{
+        padding: 0 150px;
+    }
+    .flower-plant-content li{
+        margin: 20px 0;
+    }
+
 
     /* News Letter */
     .news-letter{
